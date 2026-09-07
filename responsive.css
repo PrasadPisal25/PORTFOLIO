@@ -1,0 +1,209 @@
+.internship {
+    padding: 100px 8%;
+}
+
+
+.internship-card {
+    max-width:100%;
+    margin:auto;
+}
+
+
+
+.internship-skills {
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+
+
+.internship-skills span {
+    padding:10px 18px;
+    border-radius:30px;
+    font-size:15px;
+}
+
+
+
+
+/* =====================================
+        TABLET VIEW
+===================================== */
+
+
+@media (max-width:991px) {
+
+
+    .internship {
+
+        padding:80px 5%;
+
+    }
+
+
+    .internship-card {
+
+        padding:30px;
+
+    }
+
+
+    .internship-card h3 {
+
+        font-size:28px;
+
+    }
+
+
+    .internship-card h4 {
+
+        font-size:22px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* =====================================
+        MOBILE VIEW
+===================================== */
+
+
+@media (max-width:768px) {
+
+
+    .internship {
+
+        padding:70px 5%;
+
+    }
+
+
+    .internship-card {
+
+        padding:25px;
+
+        text-align:center;
+
+    }
+
+
+    .internship-card h3 {
+
+        font-size:24px;
+
+    }
+
+
+    .internship-card h4 {
+
+        font-size:20px;
+
+    }
+
+
+    .internship-card p {
+
+        font-size:15px;
+
+        line-height:1.8;
+
+    }
+
+
+    .internship-skills {
+
+        justify-content:center;
+
+    }
+
+
+    .internship-skills span {
+
+        font-size:14px;
+
+        padding:8px 15px;
+
+    }
+
+
+
+    /* Toast Responsive */
+
+    .toast {
+
+        left:15px;
+
+        right:15px;
+
+        top:20px;
+
+        min-width:auto;
+
+        max-width:none;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+        SMALL MOBILE VIEW
+===================================== */
+
+
+@media (max-width:576px) {
+
+
+    .internship-card {
+
+        padding:20px;
+
+    }
+
+
+    .internship-card h3 {
+
+        font-size:22px;
+
+    }
+
+
+    .internship-card h4 {
+
+        font-size:18px;
+
+    }
+
+
+    .internship-card p {
+
+        font-size:14px;
+
+    }
+
+
+    .internship-skills span {
+
+        font-size:13px;
+
+        padding:7px 14px;
+
+    }
+
+
+}
